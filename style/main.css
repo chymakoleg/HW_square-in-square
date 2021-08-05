@@ -1,0 +1,44 @@
+.wrapper {
+  margin-top: 50px;
+  margin: auto;
+  width: 400px;
+  height: 400px;
+  background-color: grey;
+  position: relative;
+}
+.a {
+  top: 90px;
+  left: 70px;
+  width: 250px;
+  height: 20px;
+  background-color: yellow;
+  position: absolute;
+  z-index: 04;
+}
+.b {
+  left: 280px;
+  top: 70px;
+  width: 20px;
+  height: 250px;
+  background-color: indigo;
+  z-index: 3;
+  position: absolute;
+}
+.c {
+  top: 280px;
+  left: 70px;
+  width: 250px;
+  height: 20px;
+  background-color: aquamarine;
+  z-index: 2;
+  position: absolute;
+}
+.d {
+  top: 70px;
+  left: 90px;
+  width: 20px;
+  height: 250px;
+  background-color: brown;
+  position: absolute;
+  z-index: 1;
+}
